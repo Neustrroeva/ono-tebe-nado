@@ -18,7 +18,7 @@ text-decoration: underline;
 }
 
 .header {
-margin: 92px 24px 96px;
+margin: -61px 24px 96px;
 font-size: 18px;
 display: flex;
 }
@@ -41,7 +41,7 @@ justify-self: stretch;
 display: flex;
 list-style: circle;
 justify-content: space-evenly;
-margin-left: -12px; 
+margin-left: -12px;
 }
 
 .header__menu-link {
