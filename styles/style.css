@@ -18,7 +18,7 @@ text-decoration: underline;
 }
 
 .header {
-margin: 0px 24px 96px;
+margin: 92px 24px 96px;
 font-size: 18px;
 display: flex;
 }
@@ -206,7 +206,6 @@ background-image: url(../images/card-lot-02.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-position: center;
 z-index: -2;
 }
 
