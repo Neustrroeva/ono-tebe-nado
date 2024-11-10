@@ -187,28 +187,23 @@ h1 {
   height: 100%;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+.card_type {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 0;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 0;
 }
 
 .card__title {
@@ -284,9 +279,7 @@ h1 {
 
 .footer {
   font-size: 18px;
-  margin-top: 180px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 180px 50px 88px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
